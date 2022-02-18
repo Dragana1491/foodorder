@@ -1,0 +1,131 @@
+*{/*  height:100%; */
+    margin:0;
+    padding:0;
+}
+
+/* meni i header*/
+.meni ul li{
+
+    display:inline;
+    margin:20px;
+    float:right;
+    text-align: center;
+    vertical-align:bottom;
+}
+ .meni ul li a{
+    text-decoration: none;
+    color: rgb(1, 25, 54);
+    font-size: 1.5em;
+    
+}
+.meni ul li a:hover{
+    text-decoration: aqua;
+} 
+.meni{
+    /*border:3px solid black;*/
+    height:100px;
+    background-color: rgb(189, 147, 189);
+    vertical-align:bottom;
+}
+
+/*zavrsetak menija i headera*/
+
+
+
+/*futer*/
+.futer{
+    display:grid;
+ grid-template-columns: repeat(3,auto);
+    /* background-color: royalblue; */
+   width:40%;
+   /* margin:auto; */
+   position: absolute;
+   left: 50%;
+   top: 50%;
+   transform: translate(-50%, -50%);
+  
+   padding: 10px;
+  
+} 
+.futer_stubac a{
+    color: rgb(1, 25, 54);
+    
+    text-decoration: none;
+}
+.futer_stubac{
+    margin:auto;
+}
+.futer_stubac h2 {
+    margin-bottom:10px;
+}
+.container{
+    position:fixed;
+    bottom:0;
+    left:0;
+    height:15%;
+    width:100%;
+    background-color: rgb(189, 147, 189);
+}  
+/*kraj futera*/
+
+
+
+/*centralni deo*/
+
+.banner_div_ad{
+    background-color: rgb(1, 25, 54);
+    height:25%;
+    width:100%;
+    position:absolute;
+    margin-bottom: 20px;
+
+}
+.middle{
+    position: absolute;
+    top: 35%;
+    /* height:55%; */
+    width:100%;
+    background-color: rgb(240, 230, 240);
+    /* border: 1px solid black; */
+}
+.content{
+    width:80%;
+    position: absolute;
+    top:50%;
+    left: 10%;
+    right:10%;
+    /* margin-left: 20px; */
+    display:grid;
+   grid-template-columns: repeat(3, auto);
+  
+}
+.food_category{
+    /* display:inline; */
+    width:400px;
+    height:400px;
+    margin:auto;
+    margin-top:20px;
+   
+}
+.food_category img{
+    /* width:300px;
+    height:350px;
+    margin-top: 20px;
+    margin-bottom: 20px; */
+    height:100%;
+    width:100%;
+    object-fit: cover;
+    border-radius: 10%;
+
+
+}
+
+/*kraj centralnog dela*/
+
+
+
+/*pocetak kategorija*/
+
+
+
+/*kraj kategorija*/

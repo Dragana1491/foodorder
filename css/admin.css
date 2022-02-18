@@ -1,0 +1,109 @@
+*{
+    padding: 0; 
+    margin:0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.wrapper{ 
+   
+    padding:1%;
+    width:80%;
+    margin: 0 auto;
+}
+.text-center{
+    text-align: center;
+}
+.clear-fix{
+    float:none;
+    clear:both;
+}
+
+
+/* futer css*/
+
+.footer{
+    background-color: wheat;
+    color:brown;
+
+}
+
+/*meni css*/
+.meni{
+    text-align: center;
+    border-bottom: 1px solid olivedrab;
+}
+.meni ul {
+    list-style-type: none;
+}
+.meni ul li {
+    display:inline;
+    padding:1%;
+}
+.meni ul li a{
+    text-decoration: none;
+    color: chocolate;
+    font-weight: bolder;
+}
+.meni ul li a:hover{
+    text-decoration: overline;
+    color:olivedrab;
+}
+
+/*glavno deo css*/
+
+.main-content{
+    margin:1% 0;
+    background-color: whitesmoke;
+    padding:3% 0;
+}
+.col-4{
+    width: 17%;
+    background-color: wheat;
+    margin:1%;
+    padding:3%;
+    float:left;
+}
+
+/*manage admin*/
+.add_button{
+    background-color:crimson;
+    margin:1%;
+    padding:1%;
+    text-decoration: none;
+}
+a{
+    text-decoration: none;
+}
+.general_table{
+    /*padding: 10px;*/
+    width:50%;
+    text-align: center;
+}
+.general_table1{
+    /*padding: 10px;*/
+    width:30%;
+    /*text-align: center;*/
+}
+.Update_admin_button{
+    background-color: tomato;
+}
+.Update_admin_button:hover{
+    background-color:sandybrown;
+}
+.add_admin_button{
+    background-color: rgb(27, 141, 27);
+    padding:10px;
+}
+.success{
+    font-weight: 700;
+    color:green;
+}
+.failed{
+    color:red;
+}
+.login {
+    width:20%;
+    border: 1px solid black;
+    margin: 10% auto;
+    padding: 2%;
+}
